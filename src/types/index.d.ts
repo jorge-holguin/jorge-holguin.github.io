@@ -23,6 +23,7 @@ export type TProject = {
   tags: {
     name: string;
     color: string;
+    image:string;
   }[];
   image: string;
   sourceCodeLink: string;

@@ -18,9 +18,15 @@ module.exports = {
       screens: {
         xs: "450px",
       },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+      /*backgroundImage: {
+        "hero-pattern": "url('/src/assets/space.webp')",
       },
+      zIndex: {
+        '-10': '-10',
+        '10': '10',
+        '20': '20',
+      },
+      */
     },
   },
   plugins: [],

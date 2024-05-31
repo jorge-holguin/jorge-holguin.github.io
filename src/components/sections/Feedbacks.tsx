@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../../constants/styles";
 import { fadeIn } from "../../utils/motion";
 import { testimonials } from "../../constants";
@@ -46,20 +45,17 @@ const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
 
 const Feedbacks = () => {
   return (
-    <div className="bg-black-100 mt-12 rounded-[20px]">
-      <div
-        className={`${styles.padding} bg-tertiary min-h-[300px] rounded-2xl`}
-      >
+    <section className="sm:px-16 px-6 sm:py-16 py-10 relative z-0 mx-auto max-w-7xl" id="">
+      <span className="hash-span">&nbsp;</span>
+      <div className="min-h-[300px] rounded-2xl">
         <Header useMotion={true} {...config.sections.feedbacks} />
       </div>
-      <div
-        className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center`}
-      >
+      <div className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 justify-center pb-14 max-sm:justify-center`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

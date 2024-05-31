@@ -70,18 +70,39 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className="hidden list-none flex-row gap-10 sm:flex">
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.id ? "text-white" : "text-secondary"
-              } cursor-pointer text-[18px] font-medium hover:text-white`}
+        <div className="flex items-center justify-center flex-1">
+          <ul className="hidden list-none flex-row gap-10 sm:flex">
+            {navLinks.map((nav) => (
+              <li
+                key={nav.id}
+                className={`${
+                  active === nav.id ? "text-white" : "text-secondary"
+                } cursor-pointer text-[18px] font-medium hover:text-white`}
+              >
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="hidden sm:flex">
+          <Link
+            to="https://mega.nz/file/eaYxXBYS#Nd8S-psXTClOJTvlWU9lPauA457tL4fycY1AC9AQC8Y"
+            target="_blank"
+          >
+            <button
+              type="button"
+              className=" font-medium text-center px-3 py-3 flex gap-1 justify-center rounded-md transition ease-in-out delay-150 bg-[#915EFF] hover:-translate-y-1 hover:scale-110 hover:bg-purple-600 duration-300"
+              onClick={() =>
+                alert(
+                  "Now you will see a Mega.nz link. Click on download to download the Resume in PDF Format. Thanks for visit!!",
+                )
+              }
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
-        </ul>
+              <span className="text-white">Download Resume</span>
+            </button>
+          </Link>
+        </div>
 
         <div className="flex flex-1 items-center justify-end sm:hidden">
           <img
