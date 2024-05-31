@@ -5,6 +5,7 @@ import {
   Contact,
   Experience,
   Feedbacks,
+  Footer,
   Hero,
   Navbar,
   Tech,
@@ -13,7 +14,6 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
-
 const App = () => {
   useEffect(() => {
     if (document.title !== config.html.title) {
@@ -37,6 +37,7 @@ const App = () => {
         <div className="relative z-0">
           <Contact />
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

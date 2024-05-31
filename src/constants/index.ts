@@ -7,6 +7,15 @@ import type {
   TProject,
 } from "../types";
 
+import { FaYoutube, FaFacebook } from "react-icons/fa";
+import {
+  RxDiscordLogo,
+  RxGithubLogo,
+  RxInstagramLogo,
+  RxTwitterLogo,
+  RxLinkedinLogo,
+} from "react-icons/rx";
+
 import {
   mobile,
   backend,
@@ -274,5 +283,68 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
 ];
+
+export const FOOTER_DATA = [
+  {
+    title: "Community",
+    data: [
+      {
+        name: "YouTube",
+        icon: FaYoutube,
+        link: "https://youtube.com/@vidadigital1994",
+      },
+      {
+        name: "GitHub",
+        icon: RxGithubLogo,
+        link: "https://github.com/jorge-holguin",
+      },
+      {
+        name: "Discord",
+        icon: RxDiscordLogo,
+        link: "https://discord.com/invite/M9WDc7xX",
+      },
+    ],
+  },
+  {
+    title: "Social Media",
+    data: [
+      {
+        name: "Instagram",
+        icon: RxInstagramLogo,
+        link: "https://instagram.com/vidadigitalai",
+      },
+      {
+        name: "Twitter",
+        icon: RxTwitterLogo,
+        link: "https://twitter.com/VidaDigitalIA",
+      },
+      {
+        name: "Linkedin",
+        icon: RxLinkedinLogo,
+        link: "https://linkedin.com/in/jorgeholguinc/",
+      },
+    ],
+  },
+  {
+    title: "About",
+    data: [
+      {
+        name: "Become Sponsor",
+        icon: null,
+        link: "https://buymeacoffee.com/vidadigital",
+      },
+      {
+        name: "Learning about me",
+        icon: null,
+        link: "https://youtube.com/@vidadigital1994",
+      },
+      {
+        name: "Contact Me",
+        icon: null,
+        link: "mailto:jorge.holguin1105@gmail.com",
+      },
+    ],
+  },
+] as const;
 
 export { services, technologies, experiences, testimonials, projects };

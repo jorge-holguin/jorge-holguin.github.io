@@ -14,6 +14,7 @@ import Works from "./sections/Works";
 import Feedbacks from "./sections/Feedbacks";
 import Contact from "./sections/Contact";
 import CanvasLoader from "./layout/Loader";
+import Footer from "./sections/footer";
 
 export {
   Hero,
@@ -23,6 +24,7 @@ export {
   Experience,
   Works,
   Feedbacks,
+  Footer,
   Contact,
   CanvasLoader,
   EarthCanvas,
