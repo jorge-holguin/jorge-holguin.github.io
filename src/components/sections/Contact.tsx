@@ -17,7 +17,6 @@ const emailjsConfig = {
   templateId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
   accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
 };
-
 const Contact = () => {
   const formRef = useRef<React.LegacyRef<HTMLFormElement> | undefined>();
   const [form, setForm] = useState(INITIAL_STATE);
