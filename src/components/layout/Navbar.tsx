@@ -87,7 +87,7 @@ const Navbar = () => {
 
         <div className="hidden sm:flex">
           <Link
-            to="https://mega.nz/file/eaYxXBYS#Nd8S-psXTClOJTvlWU9lPauA457tL4fycY1AC9AQC8Y"
+            to="https://drive.google.com/file/d/1Q7MFBpC6T1txeGS4-auocHbUJfIY3Yvs/view?usp=sharing"
             target="_blank"
           >
             <button
@@ -95,11 +95,11 @@ const Navbar = () => {
               className=" font-medium text-center px-3 py-3 flex gap-1 justify-center rounded-md transition ease-in-out delay-150 bg-[#915EFF] hover:-translate-y-1 hover:scale-110 hover:bg-purple-600 duration-300"
               onClick={() =>
                 alert(
-                  "Now you will see a Mega.nz link. Click on download to download the Resume in PDF Format. Thanks for visit!!",
+                  "Now you will see a Google Drive link. Click on download to download the Resume in PDF Format. Thanks for visit!!",
                 )
               }
             >
-              <span className="text-white">Download Resume</span>
+              <span className="text-white">Descargar CV</span>
             </button>
           </Link>
         </div>

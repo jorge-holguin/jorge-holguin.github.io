@@ -11,10 +11,10 @@ import About from "./sections/About";
 import Tech from "./sections/Tech";
 import Experience from "./sections/Experience";
 import Works from "./sections/Works";
-import Feedbacks from "./sections/Feedbacks";
+import Videos from "./sections/Videos";
 import Contact from "./sections/Contact";
 import CanvasLoader from "./layout/Loader";
-import Footer from "./sections/footer";
+import Footer from "./sections/Footer";
 
 export {
   Hero,
@@ -23,7 +23,7 @@ export {
   Tech,
   Experience,
   Works,
-  Feedbacks,
+  Videos,
   Footer,
   Contact,
   CanvasLoader,

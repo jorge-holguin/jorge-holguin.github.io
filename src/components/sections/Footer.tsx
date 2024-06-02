@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../../constants/styles';
 import { fadeIn } from '../../utils/motion';
 
-const FooterColumn: React.FC<{ title: string, data: { icon: React.ElementType, name: string, link: string }[] }> = ({ title, data }) => (
+const FooterColumn: React.FC<{ title: string, data: readonly { icon: React.ElementType | null, name: string, link: string }[] }> = ({ title, data }) => (
   <motion.div
     variants={fadeIn('', 'spring', 0.5, 0.75)}
     className="min-w-[200px] h-auto flex flex-col items-center justify-start"
@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="min-h-[300px] rounded-2xl">
         <div className={`${styles.paddingX} flex flex-wrap justify-around`}>
           {FOOTER_DATA.map((column, index) => (
-            <FooterColumn key={index} title={column.title} data={column.data} />
+            <FooterColumn key={index} title={column.title} data={[...column.data]} />
           ))}
         </div>
         <div className="mt-10 mb-[20px] text-[15px] text-center text-gray-200">

@@ -4,12 +4,13 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
+  //Feedbacks,
   Footer,
   Hero,
   Navbar,
   Tech,
   Works,
+  Videos,
   StarsCanvas,
 } from "./components";
 import { useEffect } from "react";
@@ -33,7 +34,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        <Videos />
         <div className="relative z-0">
           <Contact />
         </div>

@@ -33,62 +33,55 @@ type TConfig = {
   sections: {
     about: Required<TSection>;
     experience: TSection;
-    feedbacks: TSection;
+    videos: TSection;
     works: Required<TSection>;
   };
 };
 
 export const config: TConfig = {
   html: {
-    title: "Jorge Holguin — Portfolio",
+    title: "Jorge Holguin — Portafolio",
     fullName: "Jorge Holguin",
     email: "jorge.holguin1105@gmail.com",
   },
   hero: {
     name: "Jorge Holguin",
-    p: ["I'm a Full Stack Software Engineer with experience in Website, Mobile, and Software development. Check out my projects and skills."],
+    p: ["Soy un Desarrollador de Software con experiencia en desarrollo de sitios web, aplicaciones móviles y software. Revisa mis proyectos y habilidades."],
   },
   contact: {
-    p: "Get in touch",
-    h2: "Contact.",
+    p: "Ponte en contacto conmigo",
+    h2: "Contacto",
     form: {
       name: {
-        span: "Your Name",
-        placeholder: "What's your name?",
+        span: "Tu nombre",
+        placeholder: "¿Cuál es tu nombre?",
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
+      email: { span: "Tu correo electrónico", placeholder: "¿Cual es tu correo?" },
       message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
+        span: "Tu mensaje",
+        placeholder: "Escribe lo que me quieres decir",
       },
     },
   },
   sections: {
     about: {
-      p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      p: "Introducción",
+      h2: "Sobre Mí.",
+      content: `Soy un desarrollador de software y creador de contenido en Youtube, especializado en TypeScript y JavaScript, con experiencia en frameworks como React. Colaboro estrechamente con los clientes para crear soluciones de software innovadoras y efectivas. ¡Llevemos tu idea al mundo real!`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "Esto es lo que he hecho hasta ahora",
+      h2: "Experiencia de Trabajo.",
     },
-    feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+    videos: {
+      p: "Me apasiona crear contenido",
+      h2: "Mis Videos.",
+      content: `En esta lista, te mostraré los videos que considero más destacados. Además, me encantaría saber tu opinión sobre qué contenido relacionado con inteligencia artificial te gustaría ver en el futuro.`,
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      p: "Mi trabajo",
+      h2: "Proyectos.",
+      content: `Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos reales de mi trabajo. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo, reflejando mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y gestionar proyectos de manera efectiva.`,
     },
   },
 };

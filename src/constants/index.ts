@@ -3,11 +3,11 @@ import type {
   TService,
   TTechnology,
   TExperience,
-  TTestimonial,
+  TVideos,
   TProject,
 } from "../types";
 
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube} from "react-icons/fa";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -18,7 +18,7 @@ import {
 
 import {
   mobile,
-  backend,
+  openai,
   creator,
   web,
   javascript,
@@ -26,46 +26,65 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  //astro,
   tailwind,
   nodejs,
-  mongodb,
+  //mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  freelancer,
+  escape,
   jobit,
   tripguide,
   threejs,
+  //nextjs,
+  expressjs,
+  csharp,
+  //net,
+  //mysql,
+  postgresql,
+  //scala,
+  python,
+  numpy,
+  //azure,
+  //aws,
+  unity,
+  //linux,
+  //youtube,
+  //wordpress,
+  mota
 } from "../assets";
+
+
 
 export const navLinks: TNavLink[] = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre Mí",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experiencia",
   },
 
   {
     id: "skills",
-    title: "Skills",
+    title: "Habilidades",
   },
 
   {
     id: "projects",
-    title: "Projects",
+    title: "Proyectos",
   },
 
   {
+    id: "videos",
+    title: "Videos",
+  },
+  {
     id: "contact",
-    title: "Contact",
+    title: "Contacto",
   },
 
  
@@ -73,16 +92,16 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Desarrollador Web",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Android Native Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "AI expert",
+    icon: openai,
   },
   {
     title: "Content Creator",
@@ -112,175 +131,146 @@ const technologies: TTechnology[] = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Express JS",
+    icon: expressjs,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "Full Stack Developer    ",
+    title: "Software Developer",
     companyName: "Freelance",
-    icon: shopify,
+    icon: freelancer,
     iconBg: "#383E56",
-    date: "July 2021 - Now",
+    date: "Julio 2021 - Now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Creación y mantenimiento de aplicaciones web utilizando el stack MERN (MongoDB, Express, React y Node.js), así como Next.js.",
+      "Implementación de soluciones de bases de datos utilizando .NET, SQL Server y C#.",
+      "Uso de lenguajes de programación como Scala y Python para el mantenimiento de aplicaciones y procesos de Big Data en la plataforma Azure.",
+      "Despliegue de modelos de machine learning en producción utilizando Azure Machine Learning y Azure Cognitive Services.",
     ],
   },
-  {
-    title: "Content Creator",
-    companyName: "Youtube",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Now",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  
 ];
 
-const testimonials: TTestimonial[] = [
+
+const videos: TVideos[] = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "El Escape de Mota - Infinity Runner 2D",
+    description:
+      "Videojuego 2D en Unity, inspirado en el dinosaurio de Google, ahora protagonizado por Mota, mi perro Schnauzer.",
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+        image: csharp,
+      },
+      {
+        name: "Unity",
+        color: "green-text-gradient",
+        image: unity,
+
+      },
+    ],
+    image: mota,
+    sourceCodeLink: "https://youtu.be/wGmkzCEr0NM",
   },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+]
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "El Escape de Mota - Infinity Runner 2D",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Videojuego 2D en Unity, inspirado en el dinosaurio de Google, ahora protagonizado por Mota, mi perro Schnauzer.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-
-      },
+        {
+          name: "C#",
+          color: "blue-text-gradient",
+          image: csharp,
+        },
+        {
+          name: "Unity",
+          color: "green-text-gradient",
+          image: unity,
+  
+        },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
-  },
+    image: escape,
+    sourceCodeLink: "https://github.com/jorge-holguin/El-Escape-de-Mota",
+   },
   {
-    name: "Job IT",
+    name: "QuakeWatch",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "QuakeWatch es una aplicación web que visualiza datos de terremotos en tiempo real, utilizando un backend en Ruby on Rails para servir datos desde la API de USGS.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-
+        image: reactjs,
       },
       {
-        name: "restapi",
+        name: "Tailwind",
         color: "green-text-gradient",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        image: tailwind,
 
       },
       {
-        name: "scss",
+        name: "Nodejs",
         color: "pink-text-gradient",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        image: nodejs,
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/jorge-holguin/QuakeViewFrontend",
   },
   {
-    name: "Trip Guide",
+    name: "Modelo Predictivo de Machine Learning",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Modelo Predictivo de Machine Learning basado en el algoritmo Random Forest para jugar en la ruleta. Script hecho con Python y con datos obtenidos a partir de WebScrapping",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        image: python,
 
       },
       {
-        name: "supabase",
+        name: "Numpy",
         color: "green-text-gradient",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        image: numpy,
 
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-
-      },
+      
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/jorge-holguin/Ruleta_Mejorada",
   },
 ];
 
@@ -347,4 +337,4 @@ export const FOOTER_DATA = [
   },
 ] as const;
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, videos, projects };
