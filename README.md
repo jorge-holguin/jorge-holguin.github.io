@@ -123,7 +123,7 @@ Explora la demostración en vivo del proyecto:
 - [🚀 Despliegue](#-despliegue)
     - [Despliegue a Producción (manual)](#despliegue-a-producción-manual)
     - [Despliegue en Github Pages](#despliegue-en-github-pages)
-    - [Despliegue en Vercel (recommended)](#despliegue-en-vercel-recommended)
+    - [Despliegue en Vercel (recomendado)](#despliegue-en-vercel-recomendado)
     - [Despliegue en Netlify](#despliegue-en-netlify)
 - [🔧 Contribuciones](#-contribuciones)
   - [📩 Bug / Solicitud de Funcionalidades](#-bug--solicitud-de-funcionalidades)
@@ -244,10 +244,10 @@ npm run deploy
 
 Consulta la [documentación de despliegue de Github Pages](https://docs.github.com/es/pages/quickstart) para más detalles.
 
-#### Despliegue en Vercel (recommended)
+#### Despliegue en Vercel (recomendado)
 
-La forma más sencilla de implementar esta aplicación Next.js es utilizar el
-[Plataforma Vercel] (https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+La forma más sencilla de implementar esta aplicación Next.js es utilizar la
+[Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
 [![Implementar con Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fladunjexa%2Freactjs18-3d-portfolio)
 
@@ -273,10 +273,10 @@ Para corregir un error o mejorar un módulo existente, sigue estos pasos:
 ### 📩 Bug / Solicitud de Funcionalidades
 
 Si encuentras un bug (fallo de un módulo para ejecutar su función prevista), abre un issue
-[here](https://github.com/ladunjexa/reactjs18-3d-portfolio/issues/new) incluyendo un título y una descripción clara del problema.
+[aquí](https://github.com/jorge-holguin/jorge-holguin.github.io/issues/new) incluyendo un título y una descripción clara del problema.
 
 Si deseas solicitar una nueva funcionalidad, no dudes en hacerlo abriendo un issue
-[here](https://github.com/ladunjexa/reactjs18-3d-portfolio/issues/new). Por favor, incluye ejemplos y resultados esperados.
+[aquí](https://github.com/jorge-holguin/jorge-holguin.github.io/issues/new). Por favor, incluye ejemplos y resultados esperados.
 
 ## 📞 Contacto
 
