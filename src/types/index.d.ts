@@ -24,11 +24,6 @@ export type TProject = {
 
 export type TVideos = {
   description: string;
-  tags: {
-    name: string;
-    color: string;
-    image:string;
-  }[];
   image: string;
   sourceCodeLink: string;
 } & Required<Pick<TCommonProps, "name">>;

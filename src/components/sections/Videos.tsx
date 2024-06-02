@@ -13,7 +13,6 @@ const ProjectCard: React.FC<{ index: number } & TVideos> = ({
   index,
   name,
   description,
-  tags,
   image,
   sourceCodeLink,
 }) => {
@@ -49,14 +48,6 @@ const ProjectCard: React.FC<{ index: number } & TVideos> = ({
           <div className="mt-5">
             <h3 className="text-[24px] font-bold text-white">{name}</h3>
             <p className="text-secondary mt-2 text-[14px]">{description}</p>
-          </div>
-          <div className=" mt-4 flex flex-wrap gap-2">
-            {tags.map((tag, index) => (
-              <div key={index} className={`flex items-center gap-2 rounded-full py-1 px-2 ${tag.color}`}>
-                <img src={tag.image} alt={tag.name} className="h-4 w-4" />
-                <span className="text-xs">{tag.name}</span>
-              </div>
-            ))}
           </div>
         </div>
       </Tilt>

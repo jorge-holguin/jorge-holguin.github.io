@@ -26,7 +26,7 @@ import {
   html,
   css,
   reactjs,
-  //astro,
+  astro,
   tailwind,
   nodejs,
   //mongodb,
@@ -35,8 +35,9 @@ import {
   docker,
   freelancer,
   escape,
-  jobit,
-  tripguide,
+  quakewatch,
+  youtube_juego_ruleta,
+  personalweb,
   threejs,
   //nextjs,
   expressjs,
@@ -53,7 +54,14 @@ import {
   //linux,
   //youtube,
   //wordpress,
-  mota
+  youtube_juego_unity,
+  youtube_como_funciona_ia,
+  youtube_crear_chatbot,
+  youtube_libro,
+  youtube_prompt_engine,
+  youtube_short_virales,
+  youtube_crear_gpts,
+  youtube_clon_voz,
 } from "../assets";
 
 
@@ -183,32 +191,84 @@ const experiences: TExperience[] = [
 
 const videos: TVideos[] = [
   {
-    name: "El Escape de Mota - Infinity Runner 2D",
+    name: "El Escape de youtube_juego_unity - Infinity Runner 2D",
     description:
-      "Videojuego 2D en Unity, inspirado en el dinosaurio de Google, ahora protagonizado por Mota, mi perro Schnauzer.",
-    tags: [
-      {
-        name: "C#",
-        color: "blue-text-gradient",
-        image: csharp,
-      },
-      {
-        name: "Unity",
-        color: "green-text-gradient",
-        image: unity,
-
-      },
-    ],
-    image: mota,
+      "Videojuego 2D en Unity, inspirado en el dinosaurio de Google, ahora protagonizado por youtube_juego_unity, mi perro Schnauzer.",
+    image: youtube_juego_unity,
     sourceCodeLink: "https://youtu.be/wGmkzCEr0NM",
   },
+
+  {
+    name: "Crea un CHATBOT de IA personalizado para tu ECOMMERCE",
+    description:
+      "Video donde muestro el proceso completo para crear un chatbot, cómo entrenarlo con tus datos y finalmente cómo integrarlo en tu sitio web, todo con una herramienta muy fácil de usuar, NO-CODE llamada VoiceFlow ",
+    image: youtube_crear_chatbot,
+    sourceCodeLink: "https://youtu.be/G1_bgs9tbkU",
+  },
+
+  {
+    name: "Utilizo La IA Para Jugar a La Ruleta",
+    description:
+      "Utilizando EL machine learning, se desarrolló un modelo predictivo basado en un extenso dataset de 10.000 lanzamientos de ruleta obtenido mediante Web Scraper. El modelo se diseñó con el objetivo de maximizar las ganancias en la ruleta Lightning Roulette",
+    image: youtube_juego_ruleta,
+    sourceCodeLink: "https://youtu.be/HzEaKCT9KGU",
+  },
+
+  {
+    name: "¿Como usar y crear tu propio ChatGPT personalizado?",
+    description:
+      "Te enseño como utilizar los GPTs personalizados de ChatGPT, asimismo te muestro como crear tu propio GPTs y aplicar configuraciones avanzadas, incluyendo la integración de APIs externas para mejorar la funcionalidad del modelo.",
+    image: youtube_crear_gpts,
+    sourceCodeLink: "https://youtu.be/_iP91hJuvZk",
+  },
+
+  {
+    name: "Cómo Hacer SHORTS de Motivación VIRALES con IA",
+    description:
+      "Descubre cómo crear videos de motivación y estoicismo que generan millones de vistas utilizando herramientas gratuitas de inteligencia artificial.",
+    image: youtube_short_virales,
+    sourceCodeLink: "https://youtu.be/QLxjgu0Hj2c",
+  },
+
+  {
+    name: "Como funciona la IA que crea imágenes",
+    description:
+      "Video explicativo sobre cómo la inteligencia artificial puede generar imágenes que no han existido antes , especialmente a través de los modelos de difusión como DALL-E y StableDiffusion.",
+    image: youtube_como_funciona_ia,
+    sourceCodeLink: "https://youtu.be/wGmkzCEr0NM",
+  },
+
+  {
+    name: "Curso de Engineering Prompting",
+    description:
+      "El curso Engineering Prompting para Desarrolladores introduce el uso del modelo de lenguaje largo (LLM), como GPT, y la creación de prompts personalizados para diversas aplicaciones con la API de OpenAI. Abarca prácticas de desarrollo, refinamiento de prompts y construcción de chatbots personalizados, destacando la diferencia entre Base LLM e Instruction Tuned LLM.",
+    image: youtube_prompt_engine,
+    sourceCodeLink: "https://www.youtube.com/playlist?list=PLQ2oFUnTA-DVK_6u8BiqEA4Z_w3SHL3a6",
+  },
+
+  {
+    name: "✅Como CLONAR Tu VOZ con IA 🤖",
+    description:
+      "Este tutorial de Eleven Labs te enseño a cómo clonar tu voz con inteligencia artificial, abriendo oportunidades para distribuir tu contenido en diferentes idiomas.",
+    image: youtube_clon_voz,
+    sourceCodeLink: "https://youtu.be/ad-mdGVaz4w",
+  },
+
+  {
+    name: "✅ Cómo ESCRIBIR un LIBRO con CHATGPT",
+    description:
+      "Este tutorial explora cómo usar IA para crear un libro y publicarlo en Amazon KDP, desde la generación de contenido hasta la configuración de la cuenta y la venta del libro, ideal para quienes buscan utilizar IA en el proceso de escritura y edición.",
+    image: youtube_libro,
+    sourceCodeLink: "https://youtu.be/xeOwlsywY8o",
+  },
+  
 ]
 
 const projects: TProject[] = [
   {
-    name: "El Escape de Mota - Infinity Runner 2D",
+    name: "El Escape de youtube_juego_unity - Infinity Runner 2D",
     description:
-      "Videojuego 2D en Unity, inspirado en el dinosaurio de Google, ahora protagonizado por Mota, mi perro Schnauzer.",
+      "Videojuego 2D en Unity, inspirado en el dinosaurio de Google, ahora protagonizado por youtube_juego_unity, mi perro Schnauzer.",
     tags: [
         {
           name: "C#",
@@ -223,7 +283,7 @@ const projects: TProject[] = [
         },
     ],
     image: escape,
-    sourceCodeLink: "https://github.com/jorge-holguin/El-Escape-de-Mota",
+    sourceCodeLink: "https://github.com/jorge-holguin/El-Escape-de-youtube_juego_unity",
    },
   {
     name: "QuakeWatch",
@@ -247,7 +307,7 @@ const projects: TProject[] = [
         image: nodejs,
       },
     ],
-    image: jobit,
+    image: quakewatch,
     sourceCodeLink: "https://github.com/jorge-holguin/QuakeViewFrontend",
   },
   {
@@ -269,9 +329,33 @@ const projects: TProject[] = [
       },
       
     ],
-    image: tripguide,
+    image: youtube_juego_ruleta,
     sourceCodeLink: "https://github.com/jorge-holguin/Ruleta_Mejorada",
   },
+
+  {
+    name: "Web Personal",
+    description:
+      "Pagina Web Personal hecha con el framework Astro",
+    tags: [
+      {
+        name: "Astro",
+        color: "red-text-gradient",
+        image: astro,
+
+      },
+      {
+        name: "Tailwind",
+        color: "white-text-gradient",
+        image: tailwind,
+
+      },
+      
+    ],
+    image: personalweb,
+    sourceCodeLink: "https://github.com/jorge-holguin/personal-website",
+  },
+
 ];
 
 export const FOOTER_DATA = [

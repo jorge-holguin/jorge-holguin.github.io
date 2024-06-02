@@ -19,7 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-//import astro from "./tech/astro.svg";
+import astro from "./tech/astro.svg";
 //import nextjs from "./tech/nextjs.svg";
 import expressjs from "./tech/expressjs.svg";
 import csharp from "./tech/csharp.svg";
@@ -37,11 +37,20 @@ import youtube from "./tech/youtube.svg";
 //import wordpress from "./tech/wordpress.svg";
 import freelancer from "./company/freelancer.png";
 
-import mota from "./youtube_unity.webp";
+import youtube_como_funciona_ia from "./youtubecomofuncionaia.jpg";
+import youtube_crear_chatbot from "./youtubecrearchatbot.jpg";
+import youtube_libro from "./youtubelibro.jpg";
+import youtube_prompt_engine from "./youtubepromptengine.jpg";
+import youtube_short_virales from "./youtubeshortvirales.jpg";
+import youtube_crear_gpts from "./youtubecreargpts.png";
+import youtube_clon_voz from "./youtubeclonvoz.jpg";
+import youtube_juego_unity from "./youtube_unity.webp";
 import escape from "./El_escape_mota.png";
-import jobit from "./quakewatch.png";
-import tripguide from "./IA+RULETA.webp";
+import quakewatch from "./quakewatch.png";
+import youtube_juego_ruleta from "./IA+RULETA.webp";
+import personalweb from "./astro-website.png"
 export {
+  personalweb,
   logo,
   openai,
   creator,
@@ -64,9 +73,9 @@ export {
   threejs,
   freelancer,
   escape,
-  jobit,
-  tripguide,
-  //astro,
+  quakewatch,
+  youtube_juego_ruleta,
+  astro,
   //nextjs,
   expressjs,
   csharp,
@@ -82,5 +91,12 @@ export {
   //linux,
   youtube,
   //wordpress,
-  mota,
+  youtube_juego_unity,
+  youtube_como_funciona_ia,
+  youtube_crear_chatbot,
+  youtube_libro,
+  youtube_prompt_engine,
+  youtube_short_virales,
+  youtube_crear_gpts,
+  youtube_clon_voz,
 };
