@@ -1,0 +1,40 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular azul -->
+  <circle cx="100" cy="100" r="100" fill="#0A2558" />
+  
+  <!-- Diseño del microchip simplificado -->
+  <rect x="50" y="50" width="100" height="100" fill="white" />
+  <rect x="70" y="70" width="60" height="60" fill="#0A2558" />
+  
+  <!-- Pines del microchip simplificados -->
+  <!-- Pines horizontales superiores -->
+  <rect x="40" y="55" width="20" height="5" fill="white" />
+  <rect x="40" y="75" width="20" height="5" fill="white" />
+  <rect x="40" y="95" width="20" height="5" fill="white" />
+  <rect x="40" y="115" width="20" height="5" fill="white" />
+  <rect x="40" y="135" width="20" height="5" fill="white" />
+  
+  <!-- Pines horizontales inferiores -->
+  <rect x="140" y="55" width="20" height="5" fill="white" />
+  <rect x="140" y="75" width="20" height="5" fill="white" />
+  <rect x="140" y="95" width="20" height="5" fill="white" />
+  <rect x="140" y="115" width="20" height="5" fill="white" />
+  <rect x="140" y="135" width="20" height="5" fill="white" />
+  
+  <!-- Pines verticales izquierdos -->
+  <rect x="55" y="40" width="5" height="20" fill="white" />
+  <rect x="75" y="40" width="5" height="20" fill="white" />
+  <rect x="95" y="40" width="5" height="20" fill="white" />
+  <rect x="115" y="40" width="5" height="20" fill="white" />
+  <rect x="135" y="40" width="5" height="20" fill="white" />
+  
+  <!-- Pines verticales derechos -->
+  <rect x="55" y="140" width="5" height="20" fill="white" />
+  <rect x="75" y="140" width="5" height="20" fill="white" />
+  <rect x="95" y="140" width="5" height="20" fill="white" />
+  <rect x="115" y="140" width="5" height="20" fill="white" />
+  <rect x="135" y="140" width="5" height="20" fill="white" />
+  
+  <!-- Texto VD simplificado -->
+  <text x="80" y="110" fill="white" font-family="Verdana" font-size="24" font-weight="bold">VD</text>
+</svg>
