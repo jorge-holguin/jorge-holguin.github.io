@@ -191,7 +191,7 @@ const experiences: TExperience[] = [
 
 const videos: TVideos[] = [
   {
-    name: "El Escape de youtube_juego_unity - Infinity Runner 2D",
+    name: "El Escape de Mota - Infinity Runner 2D",
     description:
       "Videojuego 2D en Unity, inspirado en el dinosaurio de Google, ahora protagonizado por youtube_juego_unity, mi perro Schnauzer.",
     image: youtube_juego_unity,
@@ -266,7 +266,7 @@ const videos: TVideos[] = [
 
 const projects: TProject[] = [
   {
-    name: "El Escape de youtube_juego_unity - Infinity Runner 2D",
+    name: "El Escape de Mota - Infinity Runner 2D",
     description:
       "Videojuego 2D en Unity, inspirado en el dinosaurio de Google, ahora protagonizado por youtube_juego_unity, mi perro Schnauzer.",
     tags: [
@@ -360,7 +360,7 @@ const projects: TProject[] = [
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Comunidad",
     data: [
       {
         name: "YouTube",
@@ -380,7 +380,7 @@ export const FOOTER_DATA = [
     ],
   },
   {
-    title: "Social Media",
+    title: "Redes Sociales",
     data: [
       {
         name: "Instagram",
@@ -388,7 +388,7 @@ export const FOOTER_DATA = [
         link: "https://instagram.com/vidadigitalai",
       },
       {
-        name: "Twitter",
+        name: "X(Ex-Twitter)",
         icon: RxTwitterLogo,
         link: "https://twitter.com/VidaDigitalIA",
       },
@@ -400,20 +400,20 @@ export const FOOTER_DATA = [
     ],
   },
   {
-    title: "About",
+    title: "Sobre Mí",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Regalamé un café",
         icon: null,
         link: "https://buymeacoffee.com/vidadigital",
       },
       {
-        name: "Learning about me",
+        name: "Aprende sobre herramientas de IA",
         icon: null,
         link: "https://youtube.com/@vidadigital1994",
       },
       {
-        name: "Contact Me",
+        name: "Contactame",
         icon: null,
         link: "mailto:jorge.holguin1105@gmail.com",
       },

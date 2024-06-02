@@ -99,7 +99,7 @@ const Navbar = () => {
                 )
               }
             >
-              <span className="text-white">Descargar CV</span>
+              <span className="text-white">Descargar Resumen</span>
             </button>
           </Link>
         </div>
