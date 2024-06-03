@@ -1,6 +1,6 @@
 <!-- GitHub badges -->
 
-[![Latest release](https://img.shields.io/github/v/release/jorge-holguin/jorge-holguin.github.io?label=Última%20versión&style=social)](https://github.com/jorge-holguin/jorge-holguin.github.io/releases/tag/v0.1.0)
+[![Latest release](https://img.shields.io/github/v/release/jorge-holguin/jorge-holguin.github.io?label=Última%20versión&style=social)](https://github.com/jorge-holguin/jorge-holguin.github.io/releases/tag/V1.0)
 [![Stars](https://img.shields.io/github/stars/jorge-holguin/jorge-holguin.github.io?style=social)](https://github.com/jorge-holguin/jorge-holguin.github.io/stargazers)
 [![Fork](https://img.shields.io/github/forks/jorge-holguin/jorge-holguin.github.io?style=social)](https://github.com/jorge-holguin/jorge-holguin.github.io/forks)
 [![GitHub commits](https://img.shields.io/github/commit-activity/t/jorge-holguin/jorge-holguin.github.io?style=social&logo=github)](https://github.com/jorge-holguin/jorge-holguin.github.io/commits)
@@ -8,10 +8,9 @@
 
 ![demo](.github/README_ASSETS/3d-portfolio.png)
 
-[![jorge-holguin](https://custom-icon-badges.demolab.com/badge/creado%20por%20-jorge-holguin-556bf2?logo=github&logoColor=white&labelColor=101827)](https://github.com/jorge-holguin)
+[![Created by jorge-holguin](https://img.shields.io/badge/Created%20by-jorge--holguin-556bf2?style=for-the-badge&logo=github&logoColor=white&labelColor=101827)](https://github.com/jorge-holguin)
 [![License](https://img.shields.io/github/license/jorge-holguin/jorge-holguin.github.io?color=dddddd&labelColor=000000)](https://github.com/jorge-holguin/jorge-holguin.github.io/blob/main/LICENSE)
 [![Top Language](https://img.shields.io/github/languages/top/jorge-holguin/jorge-holguin.github.io?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
-[![Contributors](https://img.shields.io/github/contributors/jorge-holguin/jorge-holguin.github.io?style=flat&color=orange&label=Contributors)](https://github.com/jorge-holguin/jorge-holguin.github.io/graphs/contributors)
 ![Release](https://img.shields.io/github/release/jorge-holguin/jorge-holguin.github.io.svg)
 ![PRs](https://img.shields.io/badge/PRs-bienvenidos-ff69b4.svg?style=shields)
 ![deployment](https://img.shields.io/github/deployments/jorge-holguin/jorge-holguin.github.io/Production?logo=github&label=Sitio%20Web)
@@ -114,25 +113,25 @@ Explora la demostración en vivo del proyecto:
 - [🌐 Demo en Vivo](#-demo-en-vivo)
 - [📝 Descripción](#-descripción)
 - [📖 Tabla de Contenidos](#-tabla-de-contenidos)
-- [✨ Tecnologías Utilizadas](#-tecnologías-utilizadas)
+- [👨‍💻 Tecnologías Utilizadas](#-tecnologías-utilizadas)
 - [✅ Cómo Empezar](#-cómo-empezar)
   - [📋 Requisitos Previos](#-requisitos-previos)
   - [⚙️ Instalación y Ejecución Local](#️-instalación-y-ejecución-local)
-  - [📜 Scripts](#-scripts)
+  - [📄 Scripts](#-scripts)
 - [🔒 Variables de Entorno](#-variables-de-entorno)
 - [🚀 Despliegue](#-despliegue)
     - [Despliegue a Producción (manual)](#despliegue-a-producción-manual)
     - [Despliegue en Github Pages](#despliegue-en-github-pages)
     - [Despliegue en Vercel (recomendado)](#despliegue-en-vercel-recomendado)
     - [Despliegue en Netlify](#despliegue-en-netlify)
-- [🔧 Contribuciones](#-contribuciones)
-  - [📩 Bug / Solicitud de Funcionalidades](#-bug--solicitud-de-funcionalidades)
-- [📞 Contacto](#-contacto)
+- [⚒️ Contribuciones](#️-contribuciones)
+  - [🐞 Bug / Solicitud de Funcionalidades](#-bug--solicitud-de-funcionalidades)
+- [📱 Contacto](#-contacto)
 - [📋 Licencia](#-licencia)
 
 </details>
 
-## ✨ Tecnologías Utilizadas
+## 👨‍💻 Tecnologías Utilizadas
 
 <details><summary><b>Portafolio 3D</b> está construido usando las siguientes tecnologías:</summary>
 
@@ -195,7 +194,7 @@ npm run dev
 
 Abre [http://localhost:5173](http://localhost:5173) en tu navegador para ver el resultado.
 
-### 📜 Scripts
+### 📄 Scripts
 
 Todos los scripts están definidos en el archivo `package.json`. Aquí hay una lista de todos los scripts:
 
@@ -221,7 +220,7 @@ Crea un archivo .env en el directorio raíz del proyecto y agrega las siguientes
 ```env
 VITE_EMAILJS_SERVICE_ID=<VITE_EMAILJS_SERVICE_ID>
 VITE_EMAILJS_TEMPLATE_ID=<VITE_EMAILJS_TEMPLATE_ID>
-VITE_EMAIL_JS_ACCESS_TOKEN=<VITE_EMAIL_JS_ACCESS_TOKEN>
+VITE_EMAIL_JS_ACCESS_TOKEN=<VITE_EMAIL_JS_ACCESS_TOKEN> //PUBLIC KEY
 ```
 
 ## 🚀 Despliegue
@@ -259,7 +258,7 @@ También puedes desplegar esta aplicación de Next.js con [Netlify](https://www.
 
 Consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/deployment) para más detalles.
 
-## 🔧 Contribuciones
+## ⚒️ Contribuciones
 
 Para corregir un error o mejorar un módulo existente, sigue estos pasos:
 
@@ -270,7 +269,7 @@ Para corregir un error o mejorar un módulo existente, sigue estos pasos:
 5. Empuja la rama (`git push origin improve-feature`)
 6. Crea un Pull Request 🎉
 
-### 📩 Bug / Solicitud de Funcionalidades
+### 🐞 Bug / Solicitud de Funcionalidades
 
 Si encuentras un bug (fallo de un módulo para ejecutar su función prevista), abre un issue
 [aquí](https://github.com/jorge-holguin/jorge-holguin.github.io/issues/new) incluyendo un título y una descripción clara del problema.
@@ -278,13 +277,13 @@ Si encuentras un bug (fallo de un módulo para ejecutar su función prevista), a
 Si deseas solicitar una nueva funcionalidad, no dudes en hacerlo abriendo un issue
 [aquí](https://github.com/jorge-holguin/jorge-holguin.github.io/issues/new). Por favor, incluye ejemplos y resultados esperados.
 
-## 📞 Contacto
+## 📱 Contacto
 
-[![Telegram](https://img.shields.io/badge/Telegram-@ladunjexa-2CA5E0?style=social&logo=telegram&logoColor=000000)](https://t.me/ladunjexa)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ladunjexa-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/lironabutbul)
-[![Instagram](https://img.shields.io/badge/Instagram-ladunjexa-grey?style=flat&logo=instagram&logoColor=b0c0c0&labelColor=8134af)](https://www.instagram.com/ladunjexa)
-[![Discord](https://img.shields.io/badge/Discord-ladunjexa-7289da?style=flat&logo=discord&logoColor=b0c0c0&labelColor=2c2f33)](https://discord.com/users/827996364331810816)
-[![Twitter](https://img.shields.io/twitter/follow/ladunjexa.svg?style=social)](https://twitter.com/intent/follow?screen_name=ladunjexa)
+[![Whatsapp](https://img.shields.io/badge/Whatsapp-@vidadigital-2CA5E0?style=social&logo=whatsapp&logoColor=00bb2d)](https://wa.link/vrfkzc)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vidadigital-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/jorgeholguinc/)
+[![Instagram](https://img.shields.io/badge/Instagram-vidadigital-grey?style=flat&logo=instagram&logoColor=b0c0c0&labelColor=8134af)](https://www.instagram.com/vidadigitalai/)
+[![Discord](https://img.shields.io/badge/Discord-vidadigital-7289da?style=flat&logo=discord&logoColor=b0c0c0&labelColor=2c2f33)](https://discord.com/invite/M9WDc7xX)
+[![Twitter](https://img.shields.io/twitter/follow/vidadigital.svg?style=social)](https://twitter.com/VidaDigitalIA)
 
 ## 📋 Licencia
 
