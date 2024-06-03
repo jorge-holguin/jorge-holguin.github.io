@@ -14,7 +14,7 @@ const INITIAL_STATE = Object.fromEntries(
 
 const emailjsConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  templateId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
   accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
 };
 const Contact = () => {
@@ -51,7 +51,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Gracias. Me pondré en contacto contigo tan pronto como sea posible.");
 
           setForm(INITIAL_STATE);
         },
@@ -59,7 +59,7 @@ const Contact = () => {
           setLoading(false);
 
           console.log(error);
-          alert("Something went wrong.");
+          alert("Ups!, Parece que algo salió mal");
         }
       );
   };
