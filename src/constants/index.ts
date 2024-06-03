@@ -102,7 +102,7 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Desarrollador Web",
+    title: "Web Developer",
     icon: web,
   },
   {
@@ -195,7 +195,7 @@ const videos: TVideos[] = [
   {
     name: "El Escape de Mota - Infinity Runner 2D",
     description:
-      "Te enseño a crear tu propio videojuego 2D en Unity utilizando ChatGPT, este juego fue inspirado en el dinosaurio de Google, pero protagonizado por Mota, mi perro Schnauzer.",
+      "Te enseño a crear tu propio videojuego 2D en Unity utilizando ChatGPT, este juego fue inspirado en el dinosaurio de Google, peros protagonizado por Mota, mi perro Schnauzer.",
     image: youtube_juego_unity,
     sourceCodeLink: "https://youtu.be/wGmkzCEr0NM",
   },

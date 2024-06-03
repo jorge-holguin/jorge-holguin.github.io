@@ -6,7 +6,7 @@ const Tech = () => {
   return (
     <>
       <div className="flex flex-col justify-center mt-10">
-      <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Skills</p>
+      <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Las tecnologías que domino</p>
         {/* Título de la sección */}
         <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Skills.</h2>
         {/* Contenido de tecnologías */}
